@@ -1,0 +1,31 @@
+<resources>
+
+
+    //NewAdsCompanion2021
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner_id1">ca-app-pub-3940256099942544/63009781111</string>
+    <string name="admob_banner_id2">ca-app-pub-3940256099942544/63009781111</string>
+    <string name="admob_banner_id3">ca-app-pub-3940256099942544/63009781111</string>
+    <string name="admob_inter_id1">ca-app-pub-3940256099942544/10331737121</string>
+    <string name="admob_inter_id2">ca-app-pub-3940256099942544/10331737121</string>
+    <string name="admob_inter_id3">ca-app-pub-3940256099942544/10331737121</string>
+    <string name="admob_app_open_id1">ca-app-pub-3940256099942544/34198352941</string>
+    <string name="admob_app_open_id2">ca-app-pub-3940256099942544/34198352941</string>
+    <string name="admob_app_open_id3">ca-app-pub-3940256099942544/34198352941</string>
+    <string name="admob_native_id1">ca-app-pub-3940256099942544/22476961101</string>
+    <string name="admob_native_id2">ca-app-pub-3940256099942544/22476961101</string>
+    <string name="admob_native_id3">ca-app-pub-3940256099942544/22476961101</string>
+    <string name="admob_rewarded_id1">ca-app-pub-3940256099942544/52243549171</string>
+    <string name="admob_rewarded_id2">ca-app-pub-3940256099942544/52243549171</string>
+    <string name="admob_rewarded_id3">ca-app-pub-3940256099942544/52243549171</string>
+    <string name="admob_rewarded_inter_id1">ca-app-pub-3940256099942544/53540463791</string>
+    <string name="admob_rewarded_inter_id2">ca-app-pub-3940256099942544/53540463791</string>
+    <string name="admob_rewarded_inter_id3">ca-app-pub-3940256099942544/53540463791</string>
+
+    <string name="fb_ad_id">YOUR_PLACEMENT_ID</string>
+
+
+    <string name="privacy_inhouse">This Ad is served by Developer of this app, We do not take any personal or identificable information of our user while showing this ad. Our User\'s Privacy is our topmost priority.\n
+    \nYou can check Application\'s Privacy Policy for more Information.\n\nNote: Google, Google Play Store and Play Store Logo is trademark of Google Inc.</string>
+
+</resources>

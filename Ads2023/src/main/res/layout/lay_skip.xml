@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/lay_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_ads"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:paddingEnd="5dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bg_close_ad"
+            android:id="@+id/tv_skip"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentEnd="true"
+            android:paddingStart="5dp"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:paddingEnd="5dp"
+            android:id="@+id/lay_close_ad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bg_close_ad"
+            android:orientation="horizontal"
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="Close"
+                android:textColor="@android:color/white" />
+
+            <ImageView
+                android:id="@+id/iv_close_ad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingEnd="5dp"
+                android:src="@drawable/ic_close_ad"
+                android:visibility="visible" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <WebView
+        android:layout_below="@id/lay_close"
+        android:id="@+id/wv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </WebView>
+
+
+</RelativeLayout>
